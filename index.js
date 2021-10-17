@@ -17,7 +17,7 @@ mongoose.connect(config.mongoURI)
 .catch(err => console.log(err))
 
 app.get('/', (req, res) => {
-    res.send('Hello World! 서버를 재부팅 하지 않아도 새로고침만으로 연결')
+    res.send('Hello World!')
   })
 
 app.post('/register', (req, res) => {
