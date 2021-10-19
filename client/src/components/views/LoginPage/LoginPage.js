@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import {useDispatch} from 'react-redux';
 import { loginUser } from '../../../_actions/user_action';
-//import { request, response } from 'express'
 
 function LoginPage(props){
 
@@ -32,9 +31,8 @@ function LoginPage(props){
                     alert('Error')
                 }
             })
-        
-
     }
+
     return (
         <div style={{
             display: 'flex', justifyContent: 'center', alignItems: 'center',
